@@ -54,4 +54,4 @@ Framework Architecture
  # Running Test
  Run Test Runner as Junit Tests
  
- # Reports will displayed inside test-output->sparkReport - html report(Open with webbrowser)
+ - Reports will displayed inside test-output->sparkReport - html report(Open with webbrowser)
