@@ -9,6 +9,7 @@ selenium-cucumber is a behavior driven development (BDD) approach to write autom
 - Java
 - Maven
 - Eclipse
+- Rest-Assured
 - Eclipse Plugins
    - Maven
    - Cucumber
