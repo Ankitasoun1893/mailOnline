@@ -1,27 +1,6 @@
-**selenium-cucumber : Automation Testing Using Java**
+# MailOnline Framework
 
-selenium-cucumber is a behavior driven development (BDD) approach to write automation test script to test Web. It enables you to write and execute automated acceptance/unit tests. It is cross-platform, open source and free. Automate your test cases with minimal coding.
-
-# Prerequisite
-
-- Java
-- Maven
-- Eclipse
-- Eclipse Plugins
-   - Maven
-   - Cucumber
-   
-# Setting up selenium-cucumber-java
-- Install Java and set path.
-- Install Maven and set path.
-- Clone respective repository or download zip.
-    - maven : (https://github.com/rahulverma1992/DMI_Automoves)
-    
-Framework Architecture
---------------
-# DMI_Automoves Framework
-
-**selenium-cucumber : Automation Testing Using Java**
+**selenium-cucumber-RestAssured: Automation Testing Using Java**
 
 selenium-cucumber is a behavior driven development (BDD) approach to write automation test script to test Web. It enables you to write and execute automated acceptance/unit tests. It is cross-platform, open source and free. Automate your test cases with minimal coding.
 
@@ -45,22 +24,21 @@ Framework Architecture
 	Project-Name
       |
 	  |_src/main/java
- 	  |	|_org/tester/core
+ 	  |	|_com/qa/core
 	  |	|	|_BaseSetup.java
 	  |	|	|_UIActions.java
 	  |_src/test/java
-	  |	|_org/tester/pagefactory
-	  |	|	|_LoginPageFactory.java
+	  |	|_com/qa/pagefactory
+	  |	|	|_VerifyWebPage.java
 	  |	|	|...
-	  |	|_org/tester/stepdefinition
+	  |	|_com/qa/stepdefinition
 	  |	|	|_Steps.java
-      |	|_org/tester/testrunner
+      |	|_com/qa/testrunner
 	  |	|	|_TestRunner.java
  	  |_src/test/resources
 	  |	|_Features
-	  |	|	|_login.feature
+	  |	|	|_VerifyFeature.feature
 	  |	|	|...
-      |     |_config.properties
       |     |_extent.properties
       |     |_extent-config.xml
       
@@ -70,8 +48,9 @@ Framework Architecture
  * **src/test/java/stepdefinition** - This contains code for steps provided in feature file.
  * **src/test/java/testrunner** - This runs the feature file.
  * **src/test/resources/Features** - This contains feature file i.e Test cases/Test Scenario for the software under test.
- * **src/test/resources/config** - This file contains SUT URL and browser.
  * **src/test/resources/extent** - These fine contains configuarion for extent report
  
  # Running Test
  Run Test Runner as Junit Tests
+ 
+ #Reports will displayed inside test-output->sparkReport - html report(Open with webbrowser)
